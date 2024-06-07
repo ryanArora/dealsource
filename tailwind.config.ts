@@ -3,6 +3,7 @@ import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: ["./src/**/*.tsx"],
+  plugins: [],
   theme: {
     extend: {
       fontFamily: {
@@ -10,5 +11,4 @@ export default {
       },
     },
   },
-  plugins: [],
 } satisfies Config;
